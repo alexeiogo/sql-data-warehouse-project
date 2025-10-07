@@ -30,7 +30,7 @@ BEGIN
 
         EXECUTE 'DROP DATABASE datawarehouse';
     END IF;
-
+*/
     -- 3. Create the database again
     RAISE NOTICE 'Creating new database "datawarehouse"...';
     EXECUTE 'CREATE DATABASE datawarehouse';
